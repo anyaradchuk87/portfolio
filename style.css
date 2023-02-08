@@ -86,3 +86,20 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media(max-width: 767px) {
+    .mt-5 a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 68px;
+    }
+
+    #weather {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
